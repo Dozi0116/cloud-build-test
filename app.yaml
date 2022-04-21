@@ -1,2 +1,2 @@
 service: cloud-build-test
-runtime: php
+runtime: php74
