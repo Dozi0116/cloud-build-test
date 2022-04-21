@@ -1,2 +1,2 @@
 service: cloud-build-test
-runtime: nodejs16
+runtime: php
