@@ -1,7 +1,7 @@
 service: cloud-build-test
 runtime: php55
 handlers:
-- url: /h
+- url: /
   static_files: dist/index.html
   upload: dist/index.html
   secure: always
