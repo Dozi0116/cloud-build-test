@@ -2,7 +2,3 @@ steps:
 - name: node
   entrypoint: npm
   args: ['install']
-steps:
-- name: node
-  entrypoint: npm
-  args: ['run', 'build']
