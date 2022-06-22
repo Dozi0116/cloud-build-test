@@ -1,5 +1,5 @@
 service: cloud-build-test
-runtime: php74
+runtime: php55
 skip_files:
 - node_modules/
 - public/
