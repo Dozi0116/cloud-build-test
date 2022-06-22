@@ -1,2 +1,11 @@
 service: cloud-build-test
 runtime: php74
+skip_files:
+- node_modules/
+- public/
+- src/
+- .gitignore
+- pakage.json
+- package-lock.json
+- vite.config.js
+- yarn.lock
