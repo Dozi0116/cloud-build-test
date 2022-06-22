@@ -5,7 +5,7 @@ steps:
 steps:
 - name: node
   entrypoint: npm
-  args: ['build']
+  args: ['run', 'build']
 steps:
 - name: 'gcr.io/cloud-builders/gcloud'
-  args: ['app', 'deploy', 'app.yaml', '--project', 'dozi-site']
+  args: ['app', 'deploy', 'app.yaml', '--project', 'dozi-site', '--quiet']
